@@ -1,0 +1,20 @@
+{
+  "name": "fullstack",
+  "description": "react is the javascript library in which components are defined and eventually become HTML. I used react because renders very quickly, it's easy to test, and enables good coding practice.",
+  "main": "index.js",
+  "authors": [
+    "Ahmed Salem <a.salem2@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^16.1.0"
+  }
+}

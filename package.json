@@ -1,0 +1,29 @@
+{
+  "name": "fullstack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.23.7",
+    "browserify": "^16.2.0",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-live-server": "0.0.31",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "react is the javascript library in which components are defined and eventually become HTML. I used react because renders very quickly, it's easy to test, and enables good coding practice.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
