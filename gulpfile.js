@@ -21,6 +21,13 @@ gulp.task('bundle', function () {
         .pipe(source('app.js'))
         .pipe(gulp.dest('./.tmp'));
 })
+
+//copies our styles.css to our temp directory
+gulp.task('copy', function () {
+    gulp.src(['app/*.css'])
+        .pipe(gulp.dest('./.tmp'));
+})
+//we place bundle before live-server in order to rebundle files
 gulp.task('serve', ['bundle','live-server'], function () {
     browserSync.init(null,{
         proxy:"http://localhost:7777",
