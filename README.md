@@ -7,7 +7,11 @@ How react renders the view timeline: 1) JSX code is written describing a basic a
 
 Express?
 
-
+/***************************************************************************************************/
+    - Composable JSX keeps controllers and views in a single file
+    - Browerify packages React code and allow use of modules
+    - Stores and Actions are simple and can be built to custom specifications
+/***************************************************************************************************/
 
 
 

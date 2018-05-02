@@ -1,0 +1,32 @@
+title: Homebrew Documentation
+description: Documentation for the missing package manager for macOS.
+
+exclude:
+  - bin
+  - CNAME
+  - Gemfile*
+  - vendor
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+permalink: :title
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/homebrew-256x256.png
+
+logo: /img/homebrew-256x256.png
+
+github:
+  repository_nwo: Homebrew/brew
+
+twitter:
+  username: MacHomebrew
+
+facebook:
+  publisher: https://www.facebook.com/machomebrew/

@@ -1,0 +1,1 @@
+// Rest help will simplify making rest request and keep ajax code out of our app logic.
